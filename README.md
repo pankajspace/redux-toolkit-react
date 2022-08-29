@@ -8,3 +8,6 @@
 - git push -u origin main
 
 - npm i axios @reduxjs/toolkit -S
+
+- npm i react-redux -S
+- npm i redux-logger -S
