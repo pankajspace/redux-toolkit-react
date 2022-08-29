@@ -2,9 +2,9 @@ import { configureStore } from "@reduxjs/toolkit";
 import cakeReducer from "../features/cake/cakeSlice";
 import pizzaReducer from "../features/pizza/pizzaSlice";
 import userReducer from "../features/user/userSlice";
-import reduxLogger from "redux-logger";
+import ReduxLogger from "redux-logger";
 
-const logger = reduxLogger.createLogger();
+const logger = ReduxLogger;
 
 const store = configureStore({
   reducer: {
