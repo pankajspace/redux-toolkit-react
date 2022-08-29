@@ -1,3 +1,5 @@
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3
+
 - npm create vite@latest redux-toolkit-react
 
 - git init
@@ -7,7 +9,4 @@
 - git remote add origin https://github.com/pankajspace/redux-toolkit-react.git
 - git push -u origin main
 
-- npm i axios @reduxjs/toolkit -S
-
 - npm i react-redux -S
-- npm i redux-logger -S
