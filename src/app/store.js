@@ -8,7 +8,7 @@ const store = configureStore({
     cake: cakeReducer,
     pizza: pizzaSlice.reducer,
     user: userSlice.reducer,
-  },  
+  },
 });
 
 export default store;

@@ -11,11 +11,6 @@ const pizzaSlice = createSlice({
     restocked: (state, action) => {
       state.numOfPizzas += action.payload;
     },
-    // extraReducers: {
-    //   ["cake/ordered"]: (state) => {
-    //     state.numOfPizzas--;
-    //   },
-    // },
     extraReducers: (builder) => {
       builder.addCase(cakeOrdered, (state) => {
         state.numOfPizzas--;
